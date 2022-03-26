@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+
+body {
+    margin: 0;
+}
+
+.me {
+    font-size: 30px;
+}
+
+.home {
+    font-size: 30px;
+}
+
+.about {
+    font-size: 30px;
+}
+
+.heart {
+    font-size: 30px;
+}
+.question {
+    font-size: 30px;
+}
+.call {
+    font-size: 30px;
+}
+
+a {
+    color:white;
+}
+
+.bar {
+    width: 100%;
+    height: 10vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.bar a {
+    margin-left: 40px;
+}
+.contact {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.content {
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(148,187,233,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 600px;
+    height: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 23px;
+    color: black;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px rgb(255, 255, 255);
+    text-align: center;
+
+
+
+
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+}
